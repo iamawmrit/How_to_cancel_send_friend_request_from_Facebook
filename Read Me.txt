@@ -1,0 +1,24 @@
+Hii, You can easily cancel the send friend requests of facebook in once without third party applications or extension.
+Code.
+
+Step 1:
+go to this link:-
+https://m.facebook.com/friends/center/requests/outgoing/#friends_center_main
+
+Step 2:
+inspect the page by Right click on the site and choose inspect options or press f12
+
+step 3:
+go the the console option
+
+step 4:
+copy paste the following code and press enter:
+
+var inputs = document.getElementsByClassName('_54k8 _52jg _56bs _26vk _2b4n _56bt');   
+for(var i=0; i != inputs.length; i++) {   
+inputs[i].click(); 
+}
+
+
+Step 5:
+your'e done!!
